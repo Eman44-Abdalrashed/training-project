@@ -1,0 +1,579 @@
+    i {
+        font-style: normal;
+    }
+    
+    body {
+        font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    
+    .h {
+        font-family: auto;
+        letter-spacing: 0.1em;
+    }
+    
+    .rd-navbar-static .rd-nav-link {
+        font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    
+    h3 {
+        letter-spacing: .025em;
+    }
+    
+    .fontAwesome {
+        font-family: 'Helvetica', FontAwesome, sans-serif;
+    }
+    
+    .input-group>.form-control:not(:first-child) {
+        background-color: #fdfdfa;
+    }
+    
+    .location-color {
+        color: #aac148 !important;
+    }
+    
+    .allbox {
+        border: 1px solid #ccc !important;
+        border-radius: 15px;
+    }
+    /* start Navbar */
+    
+    .rd-navbar-main-element .text-dark {
+        color: #fff !important;
+    }
+    
+    .fa-search,
+    .mdi-login {
+        font-size: 30px;
+        font-weight: 200;
+        color: #151515;
+        background: 0 0;
+    }
+    
+    .page-header .mdi-logout,
+    .page-header .login {
+        font-size: 20px;
+        font-weight: 200;
+        color: #fff;
+    }
+    
+    .page-header .login-key {
+        font-size: 20px;
+        font-weight: 200;
+        background-color: #135c6e;
+        padding: 10px 30px !important;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 4px 20px 0px rgb(0 0 0 / 21%), 0 7px 10px -5px rgb(19 92 110 / 69%);
+        transition: all .3s ease-in-out;
+        z-index: 1;
+    }
+    
+    .page-header .login-key:hover {
+        background-color: #031011;
+        color: #fff;
+        cursor: pointer;
+    }
+    /* End Navbar  */
+    /* start section counter  */
+    
+    .counter-modern-number .counter {
+        color: #13424e !important
+    }
+    
+    .context-dark h5 {
+        color: black;
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    /* End section counter  */
+    /* start section Our Services  */
+    
+    .section .mid-img {
+        border-radius: 10%;
+        border: 10px solid #fff;
+    }
+    
+    .spec_section i {
+        font-size: 40px;
+        background-color: #135c6e;
+        color: #fff;
+        padding: 5px 20px;
+    }
+    /* end section Our Services */
+    /* page Company */
+    /* select */
+    
+    .for-doctor .select-type {
+        border-radius: 1px;
+        padding: 10px 50px 10px 50px;
+        color: #fff;
+        background-color: #0e4857;
+        border-color: #0e4857;
+        box-shadow: 0 2px 2px 0 rgb(14 72 87 / 42%), 0 3px 1px -2px rgb(14 72 87 / 42%), 0 1px 5px 0 rgb(14 72 87 / 42%);
+    }
+    
+    .for-doctor .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: #fff !important;
+    }
+    
+    .for-doctor .select2-container--default .select2-results__option[aria-selected=true],
+    .DModel .select2-container--default .select2-results__option[aria-selected=true] {
+        background-color: #135c6e;
+        border-color: #135c6e;
+        box-shadow: 0 2px 2px 0 rgb(19 92 110 / 55%), 0 3px 1px -2px rgba(19 92 110 / 55%), 0 1px 5px 0 rgba(19 92 110 / 55%);
+    }
+    /*start section cards */
+    
+    .for-doctor .h {
+        font-size: 25px !important;
+    }
+    
+    .for-doctor .rate i {
+        font-size: 23px;
+    }
+    
+    .for-doctor .sale-header {
+        margin-top: -50px;
+    }
+    /* end section Company */
+    /* start Company-profile */
+    
+    .profile .btn-warning {
+        color: #ffffff;
+        background-color: #aac148 !important;
+        border-color: #aac148 !important;
+    }
+    
+    .profile .btn-warning:hover {
+        color: #ffffff;
+        background-color: #aac148 !important;
+        border-color: #aac148 !important;
+    }
+    
+    .profile .btn-warning:focus,
+    .profile .btn-warning.focus {
+        box-shadow: 0 0 0 0.2rem rgb(170 193 72) !important;
+        color: #ffffff !important;
+    }
+    
+    .dr_profile {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .dr_profile .profile p {
+        color: #666;
+    }
+    
+    .dr_profile .card-body td i {
+        font-size: 20px;
+    }
+    
+    .dr_profile .profile .co-pr-img {
+        height: 200px;
+    }
+    
+    .dr_profile .profile .co-pr-img img {
+        margin-top: 10px;
+        padding: 10px;
+        height: 180px;
+    }
+    
+    .dr_profile .profile i {
+        font-size: 20px;
+    }
+    
+    .dr_profile .card {
+        border-radius: 7px !important;
+    }
+    
+    .dr_profile .card .btn {
+        color: white;
+        font-size: 16px;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #135c6e;
+        border-color: #135c6e;
+        box-shadow: 0 2px 2px 0 rgb(19 92 110 / 59%), 0 3px 1px -2px rgba(0, 188, 212, 0.2), 0 1px 5px 0 rgba(0, 188, 212, 0.12);
+    }
+    
+    .dr_profile .text-primary {
+        color: #135c6e !important;
+        border-color: #135c6e;
+        box-shadow: 0 2px 2px 0 rgb(170 193 72), 0 3px 1px -2px rgb(170 193 72), 0 1px 5px 0 rgb(170 193 72);
+        border: 0;
+    }
+    
+    .dr_profile .list-social-3 a:hover {
+        color: #aac148 !important;
+    }
+    
+    .dr_profile .card-text {
+        color: #6c757d;
+    }
+    
+    .dr_profile .location img {
+        height: 500px;
+    }
+    
+    .dr_profile .color {
+        color: #08586b;
+        font-weight: bold;
+    }
+    /* Page Form */
+    /* start section form  */
+    
+    .modal {
+        z-index: 2000 !important;
+    }
+    
+    .DModel .bg-info-web {
+        background-color: #0e4857!important;
+    }
+    
+    .dr-ground {
+        background: url(../images/com-ground.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .DModel .modal-content {
+        background-color: #FFFFFF;
+    }
+    
+    .DModel .modal .form-control {
+        border: 1px solid rgb(231, 230, 230) !important;
+    }
+    
+    .DModel .input-group-prepend span {
+        width: 350px !important;
+        background-color: none !important;
+    }
+    
+    .book2 .input-group-prepend span {
+        background-color: transparent;
+    }
+    
+    .book2 .select2-container--default .select2-selection--single .select2-selection__rendered {
+        padding-right: 25px;
+        padding-top: 6px;
+        color: #6c757d !important;
+        font-weight: 300;
+    }
+    
+    .book2 .select2-container--default .select2-selection--single .select2-selection__arrow {
+        padding-left: 350px;
+    }
+    
+    .book2 ::placeholder {
+        font-weight: 300;
+        color: #6c757d !important;
+    }
+    
+    .book2 .input-select {
+        border: 1px solid rgb(231, 230, 230) !important;
+        border-radius: 7px;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        background-color: #fdfdfa;
+    }
+    
+    .book2 .select2-container--default .select2-selection--single .select2-selection__arrow span {
+        color: #181716 !important;
+    }
+    
+    .modal-footer {
+        border: none !important;
+    }
+    /* End Page Form */
+    /* Page Contact */
+    /* start section contact us */
+    
+    .ccheader {
+        margin: 0 auto;
+        padding: 2em;
+        text-align: center;
+    }
+    
+    .ccheader h1 {
+        margin: 0;
+        font-weight: 300;
+        font-size: 2.5em;
+        line-height: 1.3;
+    }
+    
+    .ccheader {
+        margin: 0 auto;
+        padding: 2em;
+        text-align: center;
+    }
+    
+    .ccheader h1 {
+        margin: 0;
+        font-weight: 300;
+        font-size: 2.5em;
+        line-height: 1.3;
+    }
+    /* Form CSS*/
+    
+    .ccform {
+        margin: auto;
+        width: 100%;
+    }
+    
+    .ccfield-prepend {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .ccform-addon {
+        color: #135c6e;
+        float: right;
+        padding: 8px;
+        width: 8%;
+        background: #FFFFFF;
+        text-align: center;
+    }
+    
+    .ccformfield {
+        color: #000000;
+        background: #f9faf9;
+        border: none;
+        border-radius: 10px;
+        padding: 15.5px;
+        width: 91.9%;
+        display: block;
+        font-family: 'Lato', Arial, sans-serif;
+        font-size: 14px;
+    }
+    
+    .ccformfield {
+        font-family: 'Lato', Arial, sans-serif;
+    }
+    
+    .ccbtn {
+        display: block;
+        border: none;
+        background: #135c6e;
+        color: #fff;
+        padding: 12px 25px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 40px;
+        width: 40%;
+        margin-left: 160px
+    }
+    
+    .ccbtn:hover {
+        background: #135c6e;
+    }
+    
+    .team img {
+        margin-top: 0;
+        width: 500px;
+        height: 250px;
+        margin-bottom: 30px;
+        -webkit-box-shadow: 0px 1px 32px -12px rgba(48, 57, 72, 1);
+        -moz-box-shadow: 0px 1px 32px -12px rgba(48, 57, 72, 1);
+        box-shadow: 0px 1px 32px -12px rgba(48, 57, 72, 1);
+    }
+    
+    .team .contact {
+        margin-left: 35px;
+    }
+    
+    .team ul.address {
+        margin-left: 35px;
+    }
+    
+    .team ul.ulsocial {
+        margin-left: 30px;
+        text-align: left;
+        margin-bottom: 3rem;
+    }
+    /* end section contact-us */
+    /* start page login */
+    
+    .body,
+    html {
+        background-image: url('../images/slider/s.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        font-family: 'Numans', sans-serif;
+    }
+    
+    .drbood,
+    .sara {
+        /* background-image: url('../images/aa.jpg'); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        font-family: 'Numans', sans-serif;
+    }
+    
+    .body .container {
+        height: 100%;
+        align-content: center;
+    }
+    
+    .body .card {
+        height: 400px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 400px;
+        /* background-color: rgb(10 30 32) !important; */
+        background-color: rgb(38 67 70 / 86%) !important;
+        /* border: 1px solid #F0F4C3; */
+        border-radius: 20px;
+        padding: 20px;
+    }
+    
+    .card-register .select2-container--default .select2-selection--single .select2-selection__rendered {
+        background-color: #fff;
+        line-height: 2.3 !important;
+    }
+    
+    .card-register h6 {
+        color: #30c6c9;
+    }
+    
+    .custom-alert {
+        display: none;
+        padding: 2px !important;
+        margin-bottom: 0 !important;
+        margin-top: 5px !important;
+        line-height: 16px !important;
+        font-size: 13px;
+    }
+    
+    .card-register {
+        height: 90% !important;
+    }
+    
+    .body .breadcrumbs-custom-footer {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+    
+    .card-header h3 {
+        color: white;
+    }
+    
+    .input-group-prepend span {
+        width: 50px;
+        background-color: #253031;
+        color: #fdfdfa;
+        border: 0 !important;
+    }
+    
+    input:focus {
+        outline: 0 0 0 0 !important;
+        box-shadow: 0 0 0 0 !important;
+    }
+    
+    .remember {
+        color: white;
+    }
+    
+    .remember input {
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+    
+    .login_btn {
+        color: #fff;
+        background-color: #253031;
+        width: 100%;
+    }
+    
+    .login_btn:hover {
+        color: #fff;
+        background-color: #135c6e;
+    }
+    
+    .links {
+        color: white;
+    }
+    
+    .links a {
+        margin-left: 4px;
+        color: #cebd88;
+        cursor: pointer;
+    }
+    /* end login */
+    
+    .rd-navbar-creative.rd-navbar-fixed .rd-navbar-collapse-toggle {
+        display: none !important;
+    }
+    /* Start Media Query  */
+    
+    @media only screen and (max-width: 1440px) {}
+    
+    @media screen and (max-width: 1024px) {}
+    
+    @media screen and (min-width: 1440px) {}
+    
+    @media only screen and (max-width: 768px) {
+        .ccbtn {
+            margin-left: 200px;
+        }
+        .team .uls {
+            width: 300px;
+            margin: auto;
+        }
+        .page-header .login-key {
+            display: none;
+        }
+        .dr_profile .card-text,
+        .dr_profile .color,
+        .dr_profile .card-body td i {
+            font-size: 10px;
+        }
+    }
+    
+    .carousel-item img {
+        height: 700px !important;
+    }
+    
+    @media only screen and (max-width: 425px) {
+        .ccbtn {
+            margin-left: 130px;
+            margin-bottom: 40px
+        }
+        .team .contact {
+            margin-left: 0px;
+        }
+        .team ul.ulsocial {
+            margin-left: 20px;
+        }
+        .team ul.address {
+            margin-left: 10px;
+        }
+        .context-dark .footer-modern-list {
+            text-align: center !important;
+        }
+        .dr_profile .card .btn {
+            width: 75% !important
+        }
+        .DModel .input-group-prepend span {
+            width: 170px !important;
+        }
+        .carousel-item img {
+            height: 300px !important
+        }
+    }
+    
+    @media only screen and (max-width: 320px) {
+        .ccbtn {
+            margin-left: 84px;
+            margin-bottom: 40px
+        }
+        .team ul.ulsocial {
+            margin-right: 10px;
+            margin-left: 11px;
+        }
+    }
+    /* End Media Query  */

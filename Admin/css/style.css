@@ -1,0 +1,335 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.left a:hover{
+    text-decoration: none;
+}
+.left a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+    width: 18%;
+    background-color: rgb(10 27 27);
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.left .list a{
+    color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.left .list{
+    width: 85%;
+    margin: 0px auto;
+    padding-bottom: 11px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 5%;
+    transition: .5s ease-in-out;
+}
+.left i{
+    margin-right: 15px;
+    font-size: 25px;
+}
+.left .list:hover{
+    background-color: #ea3457a8;
+    animation: .5s ease-in-out;
+}
+.right{
+    float: right;
+    width: 82%;
+    height: 100vh;
+    background-image: url('../images/12.jpeg');
+    background-size: cover;
+}
+.left button{
+    margin-top: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border: 0px;
+    background-color: #ea3457;
+    border-radius: 30px;
+    margin-bottom: 18px;
+}
+.left button:hover{
+    background-color: #ee4b6b;
+}
+.left button i{
+    margin-left: 7px;
+    font-size: 20px;
+}
+.left button a{
+    color: white;
+    font-size: 20px !important;
+}
+.left .line{
+    width: 100%;
+    text-align: center;
+}
+.left .line hr{
+    background-color: #121212;
+    width: 90%;
+}
+.list img{
+    width: 95%;
+}
+.image{
+    margin-bottom: 3px !important;
+}
+.right .right_head{
+    width: 50%;
+    margin: 2% auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 5px rgba(1, 54, 54, 0.5);
+    background-color:rgba(1, 54, 54, 0.2);
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.right button{
+    border: 0px;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding: 3% 4%;
+    border-radius: 10px;
+    background-color: rgba(1, 54, 54);
+    transition: 0.5s ease-in-out;
+}
+.right button:hover{
+    background-color: rgba(1, 54, 54, 0.8);
+}
+.right a:hover{
+    text-decoration: none;
+}
+
+/* ======================================================================== */
+/* page of add admin */
+.add_admin{
+    background-image: url('../images/2.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.add_admin .admin_form{
+    width: 30%;
+    margin: 0px auto;
+    padding-top: 7%;
+}
+.add_admin form{
+    width: 100%;
+    background-color: rgba(53, 53, 53, 0.9);
+    border-radius: 10px;
+    padding-bottom: 5%;
+    color: white;
+    padding-left: 30%;
+}
+.add_admin form h1{
+    margin: 0px;
+    color: rgb(255, 255, 255,.8);
+    padding-top: 4%;
+    padding-bottom: 2%; 
+}
+.add_admin form div{
+    margin-bottom: 5px;
+}
+.add_admin form input{
+    width: 60%;
+    margin-bottom: 2%;
+    border: 0px;
+    background-color: transparent;
+    font-size: 20px;
+    border-bottom: .5px white solid;
+    outline: none;
+}
+.add_admin form label{
+    color: #f1214e;
+    font-size: 20px;
+}
+.add_admin input[type="submit"]{
+    background-color: #f1214e;
+    color: white;
+    padding: 8px 4px;
+    border-radius: 30px;
+    margin-top: 8px;
+    border-bottom: 0px;
+    cursor: pointer;
+}
+.add_admin input[type="submit"]:hover{
+    background-color: rgb(241, 33, 78,.7);
+}
+.com_right{
+    float: right;
+    width: 82%;
+    background-color: #eee;
+}
+.com_right .first_tr{
+    background: linear-gradient(60deg, #363024, #ea3457);
+    color: white;
+}
+.first_tr th{
+    font-size: 15px;
+    padding: 20px 8px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.com_right td{
+    border-bottom: 2px solid rgb(209, 207, 207);
+    height: 120px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.com_right td img{
+    width: 80%;
+    height: 75%;
+}
+.com_right table{
+    border-spacing: 0px;
+    width: 95%;
+    margin: 2% auto;
+    background-color: white;
+    table-layout: fixed;
+    text-align: center;
+}
+.com_right i{
+    width: 20%;
+    height: 30%;
+    padding-top: 4%;
+    font-size: 20px;
+    border-radius: 3px;
+   background-color: #e43355;
+   color: white;
+}
+.com_right button{
+    width: 55%;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #47a44b;
+    font-weight: 600;
+}
+.com_right button:hover{
+    background-color: #2eac34;
+    box-shadow: 0 14px 26px -12px rgba(76, 175, 80, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(76, 175, 80, 0.2);
+}
+#no{
+    background-color: #a52626 !important;
+}
+
+/* ==================================================== */
+/* profile page */
+.pro_right{
+    float: right;
+    width: 82%;
+    height: 100vh;
+    background-image: url('../images/bg-pattern-1.jpg');
+}
+.page_profil{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 83%;
+    background-color: white;
+    margin: 0% auto;
+}
+.page_profil img{
+    width: 90%;
+    height: 40%;
+    object-fit: contain;
+}
+#id_left{
+    height: 100vh;
+}
+.no{
+    margin-bottom: 60px !important;
+}
+.pro_div1{
+    padding-top: 25px;
+    width: 40%;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pro_div1 i{
+    padding-right: 20px;
+    color: #e43355;
+}
+.pro_div1 button{
+    border-radius: 3px;
+    background-color: #ea3457;  
+    padding: 15px 30px;
+    border: 0px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pro_div1 button i{
+    color: white;
+    font-size: larger;
+}
+.pro_div2{
+    font-size: 33px;
+    width: 27%;
+    text-align: center;
+    color: #ac3346;
+    font-style: italic;
+}
+.pro_div2 i{
+    margin-left: 40%;
+    background-color: #ea3457;
+    color: white;
+    padding: 4.5% 5%;
+    border-radius: 50%;
+}
+.pro_div2 i:hover ,.pro_div1 button:hover{
+    background-color: rgb(119, 119, 119,.7);
+}
+.pro_div3{
+    width: 30%;
+}
+.pro_div3 iframe{
+    width: 100%;
+    padding-top: 12%;
+    height: 98%;
+}
+.pro_right header{
+    width: 85%;
+    margin: 0px auto;
+    color: white;
+    padding: 15px 5px;
+    background-color: #ea3457;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 23px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 22px;
+}
+.pr_header{
+    width: 100%;
+    padding-top: .5%;
+}
+.span{
+    padding-left: 20px;
+    text-align: start;
+    color: #a52626;
+}
